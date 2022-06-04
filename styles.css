@@ -53,14 +53,12 @@ a:hover {
   border-radius: 5px;
 }
 
-.upload,
 .convert {
   border-radius: 2px !important;
   background-color: rgb(216, 55, 55) !important;
   border: rgb(216, 55, 55) !important;
 }
 
-.upload:hover,
 .convert:hover {
   background-color: rgb(186, 31, 31) !important;
 }
@@ -81,7 +79,7 @@ footer {
 }
 
 .convert {
-  margin-left: 25px;
+  margin-left: 5px;
 }
 
 span {
@@ -100,4 +98,12 @@ p {
   margin-top: 1em;
   text-align: justify;
   font-size: 15px;
+}
+
+input[type=file]::file-selector-button {
+  border-radius: 2px !important;
+  background-color: rgb(216, 55, 55) !important;
+  border: rgb(216, 55, 55) !important;
+  height: 40px;
+  color: #FFFFFF;
 }

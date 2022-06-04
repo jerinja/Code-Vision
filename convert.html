@@ -28,6 +28,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,700&display=swap"
     rel="stylesheet">
 
+  <!-- javascript -->
+  <script src="/utility.js">
+
+  </script>
 </head>
 
 <body>
@@ -42,11 +46,23 @@
   </nav>
 
   <!-- main card -->
-  <div class="card main-crd" style="width: 70rem; height: 20rem;">
+  <div class="card main-crd" style="width: 70rem; height: 14rem;">
     <div class="card-body">
-      <h5 class="card-title title mb-5">Your content</h5>
-      <!-- <div> </div> -->
+      <h5 class="card-title title mb-5">Your Content is Ready !</h5>
+      <form>
+        <div class="input-group">
+          <input type="text" class="form-control textbox" value="Sample Content" placeholder="Some path"
+            id="copy-input">
+          <span class="input-group-btn">
+            <button class="btn btn-default copy" type="button" id="copy-button" data-toggle="tooltip"
+              data-placement="button" title="Copy to Clipboard">
+              Copy
+            </button>
+          </span>
+        </div>
+      </form>
     </div>
+  </div>
   </div>
   <footer>
     <a class="footer" href="https://cipherguys.github.io">

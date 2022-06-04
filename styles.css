@@ -53,15 +53,19 @@ a:hover {
   border-radius: 5px;
 }
 
-.convert {
+.convert,
+.copy {
   border-radius: 2px !important;
   background-color: rgb(216, 55, 55) !important;
   border: rgb(216, 55, 55) !important;
   height: 40px;
+  color: #FFFFFF !important;
 }
 
-.convert:hover {
+.convert:hover,
+.copy:hover {
   background-color: rgb(186, 31, 31) !important;
+  color: #FFFFFF !important;
 }
 
 
